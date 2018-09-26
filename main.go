@@ -108,7 +108,7 @@ func (c * Clock) PrintJson() {
 		c.Main.Members,
 	}
 
-  fmt.Println("made by dwood15")
+  	fmt.Println("made by dwood15")
 	dispText, _ := json.Marshal(display)
 	fmt.Println(string(dispText))
 }
